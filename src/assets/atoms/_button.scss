@@ -1,0 +1,30 @@
+@use '@/assets/config/colors' as *;
+
+.button {
+  background-color: $grey-2;
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: $white;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $grey;
+  }
+
+  &--green {
+    background-color: $green;
+
+    &:hover {
+      background-color: $green-hover;
+    }
+  }
+
+  &--red {
+    background-color: $red;
+
+    &:hover {
+      background-color: $red-hover;
+    }
+  }
+}

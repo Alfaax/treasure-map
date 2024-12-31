@@ -13,7 +13,7 @@
 
       <h3 class="rules__subtitle text__subtitle">Comment jouer ?</h3>
       <p class="rules__description text__description">
-        Il faut uploader un fichier un copier/coller le parcours du jeu. Le parcours du jeu est défini comme suit (les
+        Il faut uploader un fichier ou copier/coller le parcours du jeu. Le parcours du jeu est défini comme suit (les
         lignes n'ont pas d'ordre fixe, l'ordre des lignes ne compte que pour les joueurs):
         <i>si un joueur L est en ligne 1 et un joueur M en ligne 5 c'est le joueur 1 qui jouera en premier et qui aura
           la priorité lors de conflit de position</i>
@@ -54,6 +54,26 @@
           </div>
         </li>
       </ul>
+
+      <h3 class="rules__subtitle text__subtitle" id="deplacement">Déplacement</h3>
+      <p class="rules__description text__description">
+        Si vous voulez faire déplacer votre aventurier vous avez 3 paramèetre à votre disposition :
+      </p>
+      <ul>
+        <li><strong>G</strong> pour aller vers la gauche</li>
+        <li><strong>D</strong> pour aller vers la droite</li>
+        <li><strong>A</strong> pour aller vers l’avant</li>
+      </ul>
+
+      En finalité, la séquence de déplacement ressemble à : AAGDADDADGA
+
+      <div class="rules__description text__description">
+        Remarque : les aventuriers ne peuvent pas aller hors du territoire de la Madre de Dios (s'ils arrivent à la
+        limite
+        alors ils seront bloqués).
+        De même, si un aventurier a moins de mouvement qu'un autre alors les mouvements du joueur ayant le moins de
+        mouvements seront fait durant les premiers tours.
+      </div>
     </section>
   </div>
 </template>

@@ -103,7 +103,6 @@ const formatText = (isFromArea?: boolean) => {
 }
 
 const setGameData = () => {
-  console.log(gameLines.value[0])
   gameLines.value.forEach((line) => {
     const splitLine = line.split('-');
     switch (line.charAt(0)) {
@@ -142,7 +141,6 @@ const setGameData = () => {
         break;
     }
   });
-  console.log(gameParams.value)
   isGameLoading.value = false;
   isGameLaunched.value = true;
 }

@@ -1,12 +1,13 @@
 <template>
   <div class="rules">
-    <h1 class="rules__title text__title">Réglement</h1>
+    <h1 class="rules__title text__title">Règlement</h1>
     <section class="rules__section">
       <h3 class="rules__subtitle text__subtitle">Contexte</h3>
       <p class="rules__description text__description">
         Le gouvernement péruvien vient d’autoriser les aventuriers en quête de trésors à explorer les 85 182 km2 du
         département de la Madre de Dios !
-        Les aventuriers vont pouvoir explorer le département selon des déplacement spécifiés à l'avance et pourront peut
+        Les aventuriers vont pouvoir explorer le département selon des déplacements spécifiés à l'avance et pourront
+        peut
         être tomber sur un trésor.
         Attention des montagnes infranchissables sont présentes sur le territoire !
       </p>
@@ -57,11 +58,11 @@
 
       <h3 class="rules__subtitle text__subtitle" id="deplacement">Déplacement</h3>
       <p class="rules__description text__description">
-        Si vous voulez faire déplacer votre aventurier vous avez 3 paramèetre à votre disposition :
+        Si vous voulez faire déplacer votre aventurier vous avez 3 paramètres à votre disposition :
       </p>
       <ul>
-        <li><strong>G</strong> pour aller vers la gauche</li>
-        <li><strong>D</strong> pour aller vers la droite</li>
+        <li><strong>G</strong> pour tourner vers la gauche</li>
+        <li><strong>D</strong> pour tourner vers la droite</li>
         <li><strong>A</strong> pour aller vers l’avant</li>
       </ul>
 

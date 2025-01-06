@@ -2,13 +2,13 @@
   <main>
     <h1 class="text__title">La carte aux trésors !</h1>
     <p class="text__description"> C'est votre première partie et vous ne savez pas comment jouer ? <router-link
-        to="/reglement" class="text__link">Voici le réglement !</router-link>
+        to="/reglement" class="text__link">Voici le règlement !</router-link>
     </p>
     <p class="text__description">
-      Pour commencer, vous devez uploader un fichier (ou coller son contenu). L'extension de votre fichier doit etre
+      Pour commencer, vous devez uploader un fichier (ou coller son contenu). L'extension de votre fichier doit être
       .txt et avoir le
       format
-      défini dans le réglement.
+      défini dans le règlement.
     </p>
     <section class="HomeGame__section HomeGame__section--header">
 
